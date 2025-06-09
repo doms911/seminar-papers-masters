@@ -1,0 +1,155 @@
+%----------------------------------------------------------------------------------------
+%    PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass[aspectratio=169, xcolor=dvipsnames]{beamer}
+\usetheme{SimpleDarkBlue}
+
+\usepackage[sfdefault]{roboto}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{bm}
+
+\setbeamerfont{normal text}{size=\large}
+\setbeamerfont{frametitle}{size=\Large, series=\bfseries}
+\setbeamerfont{title}{size=\huge, series=\bfseries}
+
+%----------------------------------------------------------------------------------------
+%    TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title{Generativno modeliranje u računalnom vidu}
+\subtitle{Seminar}
+
+\author{Dominik Barukčić}
+
+\institute{
+	Fakultet elektrotehnike i računarstva \\
+	Sveučilište u Zagrebu
+}
+
+\date{\today}
+
+\begin{document}
+	
+	\begin{frame}
+		\titlepage
+	\end{frame}
+	
+	\begin{frame}{Sadržaj}
+		\tableofcontents
+	\end{frame}
+	
+	\section{Svrha rada i kontekst}
+	
+	\begin{frame}{Svrha i korisnost rada}
+		\begin{itemize}
+			\item Cilj: razumjeti generativno modeliranje u računalnom vidu
+			\item Široka primjena: medicina, umjetnost, sigurnost, itd.
+			\item Fokus: GAN, VAE, difuzijski modeli + praktični eksperimenti
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Pozadina i tehnološki kontekst}
+		\begin{itemize}
+			\item Generativni modeli: stvaraju podatke slične stvarnima
+			\item Usporedba: generativni vs. diskriminativni pristup
+			\item Brz razvoj dubokog učenja omogućio nove primjene
+		\end{itemize}
+	\end{frame}
+	
+	\section{Problem i rješenja}
+	
+	\begin{frame}{Problem i izazovi}
+		\begin{itemize}
+			\item Nedostatak kvalitetnih podataka za treniranje
+			\item Visoki troškovi prikupljanja i etička ograničenja
+			\item Potreba za generiranjem realističnih i korisnih slika
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Pregled postojećih metoda}
+		\begin{itemize}
+			\item \textbf{GAN} – realistične slike, ali osjetljivi na treniranje
+			\item \textbf{VAE} – stabilniji, ali manja vizualna kvaliteta
+			\item \textbf{Difuzijski modeli} – visoka kvaliteta, ali spori
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Vlastiti pristup}
+		\begin{itemize}
+			\item Fokus na analizu pretreniranih modela
+			\item Nema potrebe za dugotrajnim treniranjem
+			\item Eksperimenti na stvarnim primjerima
+		\end{itemize}
+	\end{frame}
+	
+	\section{Eksperimenti}
+	
+	\begin{frame}{Eksperiment 1: StyleGAN3 – generiranje lica}
+		\begin{itemize}
+			\item Korišten pretrenirani model StyleGAN3-R (FFHQ skup)
+			\item Nasumično generirane realistične slike lica
+			\item Primjena: umjetnost, privatnost, testiranje
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Eksperiment 2: Real-ESRGAN – povećanje rezolucije}
+		\begin{itemize}
+			\item Ulaz: slika niske rezolucije (stari Zagreb)
+			\item Izlaz: poboljšana slika s više detalja
+			\item Primjena: restauracija, analiza starih snimki
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Eksperiment 3: CycleGAN – prijenos stila}
+		\begin{itemize}
+			\item Ulaz: slika u Monetovom stilu
+			\item Izlaz: realistični pejzaži s istom kompozicijom
+			\item Izazovi: kvaliteta transformacije ovisi o slici
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Eksperiment 4: VAE – uklanjanje šuma}
+		\begin{itemize}
+			\item Ulaz: MNIST slike s Gaussovim šumom
+			\item Izlaz: rekonstruirane čiste slike znamenki
+			\item Koristi se VAE kao denoising autoencoder
+		\end{itemize}
+	\end{frame}
+	
+	\section{Rezultati i zaključci}
+	
+	\begin{frame}{Postignuća i ograničenja}
+		\begin{itemize}
+			\item Postignuto: uspješna primjena 4 modela na zadatke
+			\item Prednosti: jednostavna primjena, realistični rezultati
+			\item Ograničenja: kvaliteta ovisi o ulazu i modelu
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Budući razvoj}
+		\begin{itemize}
+			\item Hibridni modeli: spajanje VAE-GAN, difuzija + stil
+			\item Bolja kontrola nad generiranim podacima
+			\item Primjena u industriji, medicini, edukaciji
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Zaključak}
+		\begin{itemize}
+			\item Generativno modeliranje nudi moćne alate za računalni vid
+			\item GAN i VAE modeli su posebno korisni u primjeni
+			\item Predstavljeni rezultati pokazuju praktičnu vrijednost
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}
+		\Huge{\centerline{\textbf{Hvala na pozornosti!}}}
+		\Large{\centerline{Imate li pitanja?}}
+	\end{frame}
+	
+\end{document}

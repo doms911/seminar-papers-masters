@@ -1,0 +1,20 @@
+\babel@toc {croatian}{}\relax 
+\contentsline {chapter}{\numberline {1}Uvod}{1}{}%
+\contentsline {chapter}{\numberline {2}Osnovni pojmovi}{2}{}%
+\contentsline {section}{\numberline {2.1}Generativno modeliranje}{2}{}%
+\contentsline {section}{\numberline {2.2}Generativna suparnička mreža}{3}{}%
+\contentsline {section}{\numberline {2.3}Varijacijski autoenkoder}{4}{}%
+\contentsline {section}{\numberline {2.4}Difuzijski modeli}{6}{}%
+\contentsline {chapter}{\numberline {3}Primjene u računalnom vidu}{7}{}%
+\contentsline {section}{\numberline {3.1}Generiranje sintetičkih slika}{7}{}%
+\contentsline {section}{\numberline {3.2}Povećanje rezolucije}{8}{}%
+\contentsline {section}{\numberline {3.3}Prijenos stila}{9}{}%
+\contentsline {section}{\numberline {3.4}Uklanjanje šuma}{10}{}%
+\contentsline {chapter}{\numberline {4}Praktični eksperiment}{12}{}%
+\contentsline {section}{\numberline {4.1}Generiranje sintetičke slike lica korištenjem StyleGAN}{12}{}%
+\contentsline {section}{\numberline {4.2}Povećanje rezolucije korištenjem Real-ESRGAN}{13}{}%
+\contentsline {section}{\numberline {4.3}Prijenos stila korištenjem CycleGAN}{14}{}%
+\contentsline {section}{\numberline {4.4}Uklanjanje šuma korištenjem VAE}{15}{}%
+\contentsline {chapter}{\numberline {5}Zaključak}{16}{}%
+\contentsline {chapter}{\numberline {6}Sažetak}{17}{}%
+\contentsline {chapter}{\numberline {7}Literatura}{18}{}%

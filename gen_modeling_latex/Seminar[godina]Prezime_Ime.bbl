@@ -1,0 +1,59 @@
+\begin{thebibliography}{10}
+
+\bibitem{goodfellow2016deep}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock {\em Deep Learning}.
+\newblock MIT Press, Cambridge, MA, 2016.
+
+\bibitem{foster2019generative}
+David Foster.
+\newblock {\em Generative Deep Learning: Teaching Machines to Paint, Write,
+  Compose, and Play}.
+\newblock O'Reilly Media, Sebastopol, CA, 2019.
+
+\bibitem{langr2019gans}
+Jakub Langr and Vladimir Bok.
+\newblock {\em GANs in Action: Deep Learning with Generative Adversarial
+  Networks}.
+\newblock Manning Publications, Shelter Island, NY, 2019.
+
+\bibitem{jimaging8110310}
+Keith Man and Javaan Chahl.
+\newblock A review of synthetic image data and its use in computer vision.
+\newblock {\em Journal of Imaging}, 8(11), 2022.
+
+\bibitem{lugmayr2022survey}
+Andreas Lugmayr, Martin Danelljan, and Radu Timofte.
+\newblock Generative adversarial networks for image super-resolution: A survey.
+\newblock {\em arXiv preprint arXiv:2204.13620}, 2022.
+
+\bibitem{kinezi}
+Ghadeer Ghosheh, Li~Jin, and Tingting Zhu.
+\newblock A review of generative adversarial networks for electronic health
+  records: applications, evaluation measures and data sources.
+\newblock 03 2022.
+
+\bibitem{bo2021style}
+Xihao Bo, Xiaoyang Jing, and Xiaojian Yang.
+\newblock Style transfer analysis based on generative adversarial networks.
+\newblock pages 27--30, 2021.
+
+\bibitem{CycleGAN2017}
+Jun-Yan Zhu, Taesung Park, Phillip Isola, and Alexei~A. Efros.
+\newblock Unpaired image-to-image translation using cycle-consistent
+  adversarial networks.
+\newblock 2017.
+
+\bibitem{weng2018VAE}
+Lilian Weng.
+\newblock From autoencoder to beta-vae.
+\newblock {\em lilianweng.github.io}, 2018.
+
+\bibitem{wang2021realesrgan}
+Xintao Wang, Liangbin Xie, Chao Dong, and Ying Shan.
+\newblock Real-esrgan: Training real-world blind super-resolution with pure
+  synthetic data.
+\newblock In {\em International Conference on Computer Vision Workshops
+  (ICCVW)}.
+
+\end{thebibliography}

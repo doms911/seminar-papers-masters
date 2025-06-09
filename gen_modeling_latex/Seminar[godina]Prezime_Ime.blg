@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Seminar[godina]Prezime_Ime.aux
+The style file: unsrt.bst
+Database file #1: literatura.bib
+Warning--empty journal in kinezi
+Warning--empty journal in bo2021style
+Warning--empty journal in CycleGAN2017
+Warning--empty year in wang2021realesrgan
+You've used 10 entries,
+            1791 wiz_defined-function locations,
+            500 strings with 5263 characters,
+and the built_in function-call counts, 1810 in all, are:
+= -- 140
+> -- 96
+< -- 1
++ -- 36
+- -- 26
+* -- 91
+:= -- 309
+add.period$ -- 30
+call.type$ -- 10
+change.case$ -- 7
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 98
+empty$ -- 180
+format.name$ -- 26
+if$ -- 401
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 13
+newline$ -- 53
+num.names$ -- 10
+pop$ -- 48
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 38
+stack$ -- 0
+substring$ -- 24
+swap$ -- 15
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 13
+width$ -- 12
+write$ -- 103
+(There were 4 warnings)

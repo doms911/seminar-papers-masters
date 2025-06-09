@@ -9,9 +9,9 @@ Ovaj repozitorij sadrži kolekciju seminarskih radova i pripadajućih prezentaci
 ```
 seminarski-radovi/
 ├── pdf/
-│   └── Seminar_Barukcic_Dominik.pdf       # Seminarski rad Dominika Barukčića
+│   └── gen_modeling_in_compvis.pdf       # Seminarski rad Dominika Barukčića
 ├── pptx/
-│   └── GenerativnoModeliranje.pptx       # PowerPoint prezentacija
+│   └── GenerativeModeling.pptx       # PowerPoint prezentacija
 ├── README.md                             # Ova datoteka
 └── .gitignore                            # Ignorirane datoteke
 ```
@@ -60,4 +60,4 @@ Ovaj repozitorij je licenciran pod MIT licencom. Više detalja potražite u dato
 
 ---
 
-*Repozitorij održava [Tvoje Ime](mailto:ime.prezime@fer.hr).*
+*Repozitorij održava [Tvoje Ime](mailto:dominik.barukcic@fer.hr).*
